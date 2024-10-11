@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Hexo</title>
+    <title>MISC2 Writeup | Hexo</title>
     <meta name="author" content="John Doe" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -42,6 +42,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -155,76 +159,54 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
+            <div class="article">
+    <div>
+        <h1>MISC2 Writeup</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/10/11
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
             
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
-        
-        <div class="timeline" data-title="helloworld">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/10/11</div>
-                <a href="/2024/10/11/hello-world/">
-                    <h3>Hello World</h3>
+            
+            <span class="tag">
+                
+                <a href="/tags/misc/" style="color: #ffa2c4">
+                    misc
                 </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="promix-blog">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/10/11</div>
-                <a href="/2024/10/11/PROMIX-BLOG/">
-                    <h3>PROMIX-BLOG</h3>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/writeup/" style="color: #ff7d73">
+                    writeup
                 </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="misc2writeup">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/10/11</div>
-                <a href="/2024/10/11/MISC2-Writeup/">
-                    <h3>MISC2 Writeup</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/misc/" style="color: #ff7d73">
-                                misc
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/writeup/" style="color: #ffa2c4">
-                                writeup
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
+            </span>
+            
+        </span>
         
     </div>
+    
+    <div class="content" v-pre>
+        <p>这是信工院网安群里发的misc2作业的writeup。<br>解压压缩包，发现是个txt文件。<br><img src="/photos/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2024-10-12-001413.png" alt="截图1" title="图片1"><br>直接打开是乱码。推断是其他文件改了文件扩展名得来的。<br><img src="/photos/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2024-10-12-001553.png" alt="截图1" title="图片1"><br>看文件第一行，有NG，推断是PNG格式文件。<br>直接改文件扩展名为png，保存。打开即可获得flag。</p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
 </div>
 
             <footer id="footer">
@@ -255,6 +237,12 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+
     
 </body>
 </html>
